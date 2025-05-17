@@ -8,24 +8,38 @@ Welcome to **MusicMod**, a custom-made music mod for the game **Raft**, original
 ---
 
 
-## ⚠️ Current Issues 
-- When ever the tracks load it laggs all users could be a buffer issue ? 
+## 🚧 Known Issues
 
+- 🎵 Significant lag for all players when music tracks load.
+  - This may be caused by inefficient audio buffering or asynchronous loading not being implemented yet.
+  - Issue occurs consistently when switching environments (e.g., raft to island).
 
-## ✨ Features
+---
 
-- 🎧 **Ambient Music** while on your raft — cruise the seas with chill vibes.
-- 🚶‍♂️ **On-Foot Music** while off the raft — keep the soundtrack going wherever you are.
+## 🌟 Planned Features
 
-- TODO: What I would really like to see in the future development of this mod 
-- ⚔️ **Battle Music System**  
-  - Boss battle tracks for epic moments  
-  - Special music triggers for encounters with enemies like the **shark**, **boars**, and more
-- 📻 **Streamer-Friendly Audio**  
-  - Integrate royalty-free music via:
-    - YouTube Playlists
-    - Epidemic Sound or similar services
-  - Support for **custom user playlists** to avoid copyright strikes
+### 🎶 Battle Music System
+- Dynamic music triggered during:
+  - Boss fights (e.g., Mama Bear, Shark).
+  - Random hostile encounters (e.g., boars, birds).
+- Volume and fade control depending on intensity of the situation.
+
+### 📻 Streamer-Friendly Audio
+- Support for royalty-free and copyright-safe music sources.
+  - YouTube Playlists.
+  - Epidemic Sound integration.
+  - Local library support for custom music folders.
+
+### 🧠 Contextual Audio
+- Different music tracks based on:
+  - In-water state.
+  - Day vs night cycle.
+  - Island exploration vs sailing.
+
+---
+
+> 💡 This project is under active development. Contributions and suggestions are welcome!
+
 
 ---
 
